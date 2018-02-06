@@ -1,0 +1,42 @@
+/* 
+	This is where our own custom CSS will live 
+	to overwrite Bootstrap
+
+
+	colors to use 
+
+	SKY BLUE: #6CCFF6
+	GRAY: #757780
+	GREEN: #98CE00
+
+*/
+
+/* Google Font Montserrat to override Bootstrap Default */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.jumbotron {
+	background-color: #6CCFF6 !important;
+}
+.header {
+	color: #000;
+	text-align: center;
+}
+
+/* Train Schedule */
+.schedule-header {
+	background-color: #757780 !important;
+}
+
+/* Form Field */
+.form-header {
+	background-color: #98CE00 !important;
+	color: #000;
+}
+
+.button-add {
+	background-color: #98CE00;
+}
